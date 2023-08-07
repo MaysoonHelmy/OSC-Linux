@@ -1,1 +1,68 @@
+maysoonhelmy@pop-os:~$ mkdir 'Maysoon Helmy'
+maysoonhelmy@pop-os:~$ cd 'Maysoon Helmy'
+maysoonhelmy@pop-os:~/Maysoon Helmy$ mkdir "Documents"
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cd "Documents"
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ touch file1.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ touch file2.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ touch file3.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls -l
+total 0
+-rw-rw-r-- 1 maysoonhelmy maysoonhelmy 0 Aug  7 20:04 file1.txt
+-rw-rw-r-- 1 maysoonhelmy maysoonhelmy 0 Aug  7 20:04 file2.txt
+-rw-rw-r-- 1 maysoonhelmy maysoonhelmy 0 Aug  7 20:05 file3.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls
+file1.txt  file2.txt  file3.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd 'Maysoon Helmy'
+bash: cd: Maysoon Helmy: No such file or directory
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls ..
+Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls ..
+Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls .. ..
+..:
+Documents
+
+..:
+Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd ~
+maysoonhelmy@pop-os:~$ cd 'Maysoon Helmy'
+maysoonhelmy@pop-os:~/Maysoon Helmy$ touch '.hiiden_file'
+maysoonhelmy@pop-os:~/Maysoon Helmy$ ls
+Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy$ ls -l
+total 4
+drwxrwxr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  7 20:05 Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy$ 'Maysoon Helmy'/ 
+bash: Maysoon Helmy/: No such file or directory
+maysoonhelmy@pop-os:~/Maysoon Helmy$ 'Maysoon Helmy'
+Maysoon Helmy: command not found
+maysoonhelmy@pop-os:~/Maysoon Helmy$ ls -a
+.  ..  Documents  .hiiden_file
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cd 'Documents'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ nano 'file1.txt'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cat 'file1.txt'
+ 'This is Session 1 task for OSC Linux Summer Training'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd 'Documents'
+bash: cd: Documents: No such file or directory
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd~
+Command 'cd~' not found, did you mean:
+  command 'cdi' from deb cdo (2.0.4-1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdo' from deb cdo (2.0.4-1)
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.2)
+  command 'cdp' from deb irpas (0.10-9)
+  command 'cdb' from deb tinycdb (0.78build3)
+  command 'cdw' from deb cdw (0.8.1-2)
+Try: sudo apt install <deb name>
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd ~
+maysoonhelmy@pop-os:~$ cd 'Maysoon Helmy'
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cd 'Documents'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ mkdir '-'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd '-'
+/home/maysoonhelmy/Maysoon Helmy
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cd 'Documents'
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ mkdir "-"
+mkdir: cannot create directory ‘-’: File exists
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd '-'
+/home/maysoonhelmy/Maysoon Helmy
 
