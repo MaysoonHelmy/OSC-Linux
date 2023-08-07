@@ -65,4 +65,22 @@ maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ mkdir "-"
 mkdir: cannot create directory ‘-’: File exists
 maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ cd '-'
 /home/maysoonhelmy/Maysoon Helmy
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cp -R 'Documents' "My_Documents"
+maysoonhelmy@pop-os:~/Maysoon Helmy$ cd "My_Documents"
+maysoonhelmy@pop-os:~/Maysoon Helmy/My_Documents$ ls
+Documents
+maysoonhelmy@pop-os:~/Maysoon Helmy/My_Documents$ cd 'Documents'
+maysoonhelmy@pop-os:~/Maysoon Helmy/My_Documents/Documents$ ls
+-  file1.txt  file2.txt  file3.txt
+maysoonhelmy@pop-os:~/Maysoon Helmy$ ls -a '.hiiden_file'
+.hiiden_file
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ mv 'file2.txt' 'file3.txt' ..
+maysoonhelmy@pop-os:~/Maysoon Helmy/Documents$ ls ..
+Documents  file2.txt  file3.txt  My_Documents
+maysoonhelmy@pop-os:~$ rm -r 'Maysoon Helmy'
+maysoonhelmy@pop-os:~$ ls
+Desktop  Downloads  Music  Pictures  Public  Templates  Training  Videos
+
+
+
 
