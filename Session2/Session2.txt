@@ -1,0 +1,433 @@
+maysoonhelmy@pop-os:~$ cd Downloads
+maysoonhelmy@pop-os:~/Downloads$ unzip Updated-Task-02.zip
+Archive:  Updated-Task-02.zip
+   creating: Updated-Task-02/
+  inflating: Updated-Task-02/README.txt  
+  inflating: Updated-Task-02/.level-1.tar  
+maysoonhelmy@pop-os:~/Downloads$ tar xvf Updated-Task-02/.level-1.tar
+.level-1/
+.level-1/README.txt
+.level-1/level-2
+maysoonhelmy@pop-os:~/Downloads$ cd .level-1
+maysoonhelmy@pop-os:~/Downloads/.level-1$ cat README.txt
+Decompress "level-2".
+Hint: Most compression tools require it's suffix.
+maysoonhelmy@pop-os:~/Downloads/.level-1$ file level-2
+level-2: gzip compressed data, was "level-2.tar", last modified: Wed Aug  9 17:59:07 2023, from Unix, original size modulo 2^32 112640
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1$ tar -xf level-2
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1$ gunzip level-2.gz
+gzip: level-2.gz: No such file or directory
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1$ cd level-2
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ ls
+01VzXCtEZS  a8wKwwWNRJ  DQ3kjLgCUV  Gf0hDzawoe  L3QwW94Azo  OQUNDxbuAf  TynxkdcmfZ  x2OxGPBNwZ
+09tuxAUkSZ  ABtpOP8TR9  dW436qn2Pa  Gi0sWVVQmE  l6FQ8rGXcW  P9w2t9K9Ju  u8APo7fuFv  X7by8vw474
+0MaqBh51eE  AbyVd8kDq7  DWahK49MnT  GqeOr84K6i  l8fShvYkRA  PBQjGeeXZ2  uCBBCPnmb2  xiRKbhzAt6
+1Rc48mLISP  aD09T4P1xb  dwmlaLoghH  gUm1Kw3MsJ  lcVizkoO1R  PDsc45eDhU  uH7zN1UJSF  Xnmws6DuHJ
+1t7LeNZeIl  afHUHOaYAb  DYCdqY7wJN  GuxvN3cJ7U  lvEy6vrtZe  po63smRLBt  UkoXWlT8ck  Y2WinDQzOb
+2dBiyDY1PQ  AKf6S1hWVZ  E0bi5j8X9V  H2TS1vp6Xt  LXdwN4DGye  pptcUXKeGS  UkXg7Lp9iV  y7U81AE7BP
+2tqNyIRWZk  AofrZBGKhB  EC1LKYOR0Z  HC3gnSrNHL  lxQpP8fJrM  pRQVevx1kv  Uo2uLQHfWm  yc0GFVKDtL
+3aI6ZRWi7g  aT6OddrPAr  ECIShbzsBE  HDe7NHRINO  mIQgRJXCLp  PVhcqo825N  URJcbPH7ig  YH3RBGocdA
+3HClX3dFMm  AVR4cOJJui  EDPOSQuyWk  HRHgAeIQKP  mLD2604WjZ  Q6QURkVvYf  uUeLfbjNyx  ymuoaRLefH
+3nhuQzOgpI  AXkzOy8ZzP  EJd4UALueA  hsM9mQuMTH  mMwQyrbtaZ  QIGyaTtmlW  UUrQyToe6M  yWegzIJdDb
+40Mg6vDbYN  b8L3KxPJL3  emEeo94yqd  hynub0MKNl  Mn1k5s3x2R  QirM8dLKSD  uYt23HMkvu  yWY8iLmL2v
+4bq72IzcAj  bc83b2Byu2  eRz0wDJzB6  Ib1jBtgkP4  mTJFxGhibA  Qv3QTzvZC1  v2LInrvkDO  Yx2PUbl2gA
+4CkUBprXze  BeSbKu0Ogb  Etsj7NECd9  iJfohlDIrt  n80qgsvhlQ  README.txt  v9kNm4bENt  ZDe6elrEn5
+4OAvfgFenY  BsdD4ojJkc  eTY7qTsykD  IXzIL2c9IA  n8QxXKvUat  rHC2JXoQSc  VkL2bz9W98  ZgiaL4uwSD
+4Qm9FLdd1E  bvSabnQtuB  evJEy0ce9D  jbZwCGWF1u  n9Gy45gDYd  rjS1PORSqI  vm5P2xLF3s  ZhfPkBCn6B
+4TqWZorrCe  ciyaIBrj64  f4sJ94QCRL  jGu9MApzJB  NABe6RrZS9  rn4s52kOCO  VMVoKBX4Qu  zQ85ieoBzD
+54is18fJ6D  clktsGviqW  F7HxYNlWa1  JiMEslX4PO  NB8PtjcBPu  rnTFX18Jh9  vOcM3EYMXw  zTpHflQtBt
+5CnJF4NcXe  CoXO2qfhv8  feBbPjPHsA  JVucZ5s2sO  NuvecJk6rH  rTAkta2aW2  VUOJouKqL9  ZwCSnEFDCS
+6jKgIUUWGx  cqxENw21F1  FKtcWd8ViA  jzjKDCAuJh  nV9Fht2ABW  rzz4HDYtQb  VxWCuMyoCO  zXOU7yVyjx
+6LythIyWzQ  cTJdoZGT00  fky7p46DOi  k0KGHDEFmp  O0Jt20BDT8  s82TBxnZgd  w9ophYtx44
+6QcByCct9B  cUJtGyfwcE  fSikeo7Jtz  KNXMn8sBL8  o1hEPIsnq0  SkWLO4DmJj  waa5BUbYjL
+7B5l8AC1M8  cuL74htcTP  fTBdzWqgkc  KO4TANambB  o5zluFzkcg  soPx5vMfvS  wfbzcLn49x
+7dnQ0OZO7U  cYLRnO8xIB  FUSxQX2TeD  kPIkdmGR9B  oATDmz0CAK  SpGacqvoQe  WU2NIZw5bL
+7f6nrbSyXM  D240Im7S6f  g18DV62wEd  kr6RDEYCed  OBfROJ7kKU  Sv7z35zbDG  WWgF2QTu1U
+8HuZDGUf7D  dcWFp0gN0U  gB9k1O4ZT6  kuDj7Ti4Id  OEQ9RG7Cam  T4TiKdPbRw  WxGYCzojb5
+8lNsncDmgT  dkbSpLYJE5  gBT5u0vLT5  kVQzoTdmBO  OlDXrxU8tn  tmDRcrdYa9  WzkBDyZf09
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ find -type f -name "*txt"
+./README.txt
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ cat ./README.txt
+Locate "level-3".
+Use a general method to decompress it.
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ find -name "level-3"
+./gBT5u0vLT5/level-3
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ unzip ./gBT5u0vLT5/level-3
+Archive:  ./gBT5u0vLT5/level-3
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of ./gBT5u0vLT5/level-3 or
+        ./gBT5u0vLT5/level-3.zip, and cannot find ./gBT5u0vLT5/level-3.ZIP, period.
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ tar -xf ./gBT5u0vLT5/level-3
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ gunzip ./gBT5u0vLT5/level-3
+gzip: ./gBT5u0vLT5/level-3: unknown suffix -- ignored
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ gunzip ./gBT5u0vLT5/level-3.gz
+gzip: ./gBT5u0vLT5/level-3.gz: No such file or directory
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ cd .
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ cd ./gBT5u0vLT5
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ ls
+level-3
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ tar -xf level-3
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ gunzip level-3.gz
+gzip: level-3.gz: No such file or directory
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ cd level-3
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls
+00aBxtql7r  74gKRNrKVf  C5KrlOGYlu  flbjrqIXMS  JBDnoFKLcx  MaqkHpS39h  p194n4sSpi  SRgPbWeEG6  x2CDPgz6Jk
+0aba2tPi4R  77RwxhcZTx  cDfzzIGULi  fn95Z2sG3o  JbMcWq9tku  MKQErXMkPE  p3ARvi0q4F  sRhTcN4PIw  x3Nvoy3Ucl
+0QYBUNJixX  7C4OyiuQc4  cF1AG2dtLr  FYrh0rmC4q  Jc0EEC4sua  moQuVgMB1f  p6PVEBfSyK  sVyNLUXzut  x3SkxfEItU
+17pfO4tY4m  7nMGZvigiL  cjcKUQDGLl  G9UhKYNLgv  JgVwSWAUsr  mRET49bBGR  PaOzJn0sJV  T0gYx5T5ks  X62Vq1yIyL
+1NBA3mJTQC  7PFGHcmfa2  cKiyNtE0yD  GaMed1WIDN  JlhNaDm4f7  mu6c42Y1qo  PDJdFxfgvh  Tbi1MdwiMX  X6lkChFKsj
+1pnvifRmA6  7sxFwD2jGw  ClbTpohwVU  gcb0bfLbVM  JnOT2WHKbE  mwILTjPhCP  penDnjNMQc  tEgA7tGwxB  XapfbudtZp
+22ix6enm8X  82aRYKaCZB  cStCLsSELl  gfLQDXjJAW  jpO4wGMT57  mxG418at98  pH9s3o8foP  TezFlyJz9o  xBsGYZHomA
+2GsF4Kn1PG  88exEg2MMo  ctnOoPIga1  Gksn5ca8Jn  JqAekDHYif  mydABLXwyL  pI49N7Zoxn  TFkiwAHDrG  xigSiLU79u
+2IFaRh0Jxc  8IOqsSAWIo  cWRi45wacA  gOWuBZZgn2  jrMKucOmtp  n4d9SlSzcV  Pmf5TqkkYg  Tt0xmDrg4Y  XkrAGaosYZ
+30msooUqJf  8OLXyd5ai0  cWZv9iI87X  GPaN65ikSl  jVBkVAbTHj  n4MCXv5XM2  pO4Lt5DPrX  tZCE2HQg8s  xRxKkdCTU8
+3Ig28f7Xa8  8u4f62oAYb  cX6YaqFDFY  gu78Zpnknw  jVGv0HeZvG  N5lXyVotHN  psmL4dk69Y  uAw4PKT7E0  xYCpOSRLsl
+3SSDrwrwmt  8X1ovlX6ex  D5JYr3I592  gu92R3c92I  jvyPQ8Z8ht  nBoQgGxoGX  pXXxEWcKkz  udqz57oeuX  xYlmccmE5f
+3TpnDd6PaY  9CA6eRBprt  dBJSXzmpb1  gupiPOsJzC  JYdPDFpOIe  NdkrRTZmr9  q4gh4nODZa  ufdeX2Dk7C  Y0nB0Ep1my
+3wTdqmDig6  9GqYmpQsAS  Dd9KxIjxSB  hb4zKjD5G4  k2yYJNQcLu  NHag0dTW3U  qFO0JDSF0N  v2ME2J4GuF  y1IAp2YdZc
+3XXNloi4gV  9my7brVWmo  dK320XCmR0  hBv1LejGKu  K56S3V4AQ6  nlgqxKuRC3  Qh9GBAd3mF  V64A9vKnYq  Ye8R8ZOvJ9
+3YhvETOVcv  9NNnGuH7A1  DKiaUm3WBb  Hf8ovJhWKI  K9kyHBbw7y  NLM96g2hH3  QM053Y9Vw1  vkaOISlk2I  ygasPrK3kG
+4jFmUBgygR  9QBLcfEf91  Doi1I9Z8TE  hGCeu2NgZ5  Kfce3CFjhh  Nmuh6DvLkc  R0LpA1qK4F  vLWtq7N2aR  YgeyHmPrtP
+4vG2fYLy6B  a6HPyy5Mz5  dqbKkDKbZl  HuSBc8QKYi  KJBdbwTmzD  nR711EHtmU  R6okint5JZ  VneCQhwmfv  ysdoXYcYQq
+53IaK7n1np  A8SqBitLRB  dtLZdglPV3  HXq7gqQZ5Z  kkIu8kVXLo  nSC9OkT1E3  R82WkcyQAx  vUbRKbYlKR  YVAPjrh8Up
+5H5OLdA8qE  aFjSvqXqWE  Dux6sHDdCW  i4CkeVfT7S  kOIOppD8hx  nwt49CVPtC  rcEkx0b0WC  Vw5Jm3saUP  zEmK04yIqc
+5ME7YKcHsa  AI8sfDgnhT  EHm7bcCxj1  iCR4qC97HM  kp1ujuDGKO  O009zeKkif  README.txt  vz1uLzTKjO  ZenzUsQydR
+5tAchjHlmE  AJtW9NcRLy  epBL6naqQR  IE4xWwbydi  krWRFtvYDP  O0V7mQCicJ  rgNTkxVkxN  VZw2jtUdZD  zet1AFeHNl
+5tJnO1Mwzf  ANRcGwDkvK  ePj0HMi3nh  IiLRIuK1Fi  kT3eEAfVcY  o6Q2i1NUXc  RnL5L0QLbY  W6AdwbmalK  zghxQE4JGJ
+5VoPA03kvi  ayHSb1kjNd  Eqk382soFH  IKeqpTmvmW  kwmQK5z76U  OAbH1oFg57  RPZAvV75tm  WfUKyzFeEv  ZNq1fiVP6F
+6AJpxbHYkm  b4BF572o41  eT21MMr22o  ioOe8b7TsJ  L5DOn3iY18  OaRp7TV8pe  RU4rJzjPfg  WFyKhZdOcx  zTfi6AwgZQ
+6C8RwQ9kGP  b957oPA24t  eT909HWyck  iOplykVsBo  L8ZzpZTLz5  ObIefWWqqM  RWWLnFwGtv  wgibrPHhJq  zxmnKldpmY
+6hnWZbro0I  Bb0kZiNxDz  ETRyNzIpYk  ip23ESdwGT  LeUtklcfmE  OFx3U24MoP  rwZwqdxHhJ  WhTtCYas3M  zzgiKI2xSS
+6JPHCI1K8M  BbreWoCXSv  ev8BCScTMa  IygdcTaoYP  LKfMizQQjE  OHWTswrtBk  rzSTDqa7oV  wJC19bchr2  zZU6ymQky6
+6lie6mPCRe  bduLsR7v4K  F5Db7l8s9j  iymCtoFUVf  lowIuX2RQI  ojc7SuLzMV  SaaZymLdoG  WLuasYnMvP
+6mnK6keHIi  bOKXTvk63r  F9OYJjkGiB  j3JsNAEsm1  LtH4X99Uw3  orzpz7CBBQ  SaQtx8SNld  Wm14GdEGcm
+6mpTfHgnlX  BrJvEu79eg  fCLOGDR05y  J3K5BY52dp  LZ5jebusoa  Ou1q6zOh5n  sf7ajd5INC  wpJyCPLODS
+6vigp6VM7d  BTf86zJsB3  Fdvgo1aqTT  J5feTUwPso  M1vV6QxnH1  oV3aef60WL  skVRxkHK04  wpoGQ7WmSg
+6ZJgIXN3P0  byVoAmiOqs  FeBBLsJEYS  jahdjqT54b  m59pSiQG2p  OXZ3OOGJ7O  sNrtW0eiZF  WSxUR7IJd8
+71qxiSKgAY  bze36b6xjZ  FJsgrBEwbJ  JArjmQWPVq  m7lRDpRTUJ  oZ5HOQe6X0  SqAZPx7CbA  wZ4LJKpHW6
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -type f -name "*.txt"
+./README.txt
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat ./README.txt
+You're seeking a file with a certain size.
+Find the link to get the size.
+
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls -li
+total 804
+1339383 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 00aBxtql7r
+1339556 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 0aba2tPi4R
+1339570 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 0QYBUNJixX
+1339635 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 17pfO4tY4m
+1339347 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 1NBA3mJTQC
+1339390 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 1pnvifRmA6
+1339530 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 22ix6enm8X
+1339330 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 2GsF4Kn1PG
+1339614 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 2IFaRh0Jxc
+1339625 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 30msooUqJf
+1339257 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 3Ig28f7Xa8
+1339559 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 3SSDrwrwmt
+1339524 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 3TpnDd6PaY
+1339624 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 3wTdqmDig6
+1339344 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 3XXNloi4gV
+1339638 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 3YhvETOVcv
+1339584 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 4jFmUBgygR
+1339311 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 4vG2fYLy6B
+1339342 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 53IaK7n1np
+1339632 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 5H5OLdA8qE
+1339322 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 5ME7YKcHsa
+1339550 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 5tAchjHlmE
+1339334 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 5tJnO1Mwzf
+1339628 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 5VoPA03kvi
+1339331 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6AJpxbHYkm
+1339548 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6C8RwQ9kGP
+1339607 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6hnWZbro0I
+1339534 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6JPHCI1K8M
+1339527 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6lie6mPCRe
+1339316 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 6mnK6keHIi
+1339370 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6mpTfHgnlX
+1339579 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6vigp6VM7d
+1339290 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 6ZJgIXN3P0
+1339572 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 71qxiSKgAY
+1339560 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 74gKRNrKVf
+1339321 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 77RwxhcZTx
+1339372 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 7C4OyiuQc4
+1339613 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 7nMGZvigiL
+1332752 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 7PFGHcmfa2
+1339308 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 7sxFwD2jGw
+1339255 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 82aRYKaCZB
+1339578 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 88exEg2MMo
+1339264 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 8IOqsSAWIo
+1339571 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 8OLXyd5ai0
+1339545 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 8u4f62oAYb
+1339326 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 8X1ovlX6ex
+1339249 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 9CA6eRBprt
+1339363 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 9GqYmpQsAS
+1339636 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 9my7brVWmo
+1339333 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 9NNnGuH7A1
+1339332 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 9QBLcfEf91
+1339346 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 a6HPyy5Mz5
+1339634 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 A8SqBitLRB
+1339362 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 aFjSvqXqWE
+1339640 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 AI8sfDgnhT
+1339565 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 AJtW9NcRLy
+1339525 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 ANRcGwDkvK
+1339643 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ayHSb1kjNd
+1339615 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 b4BF572o41
+1339597 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 b957oPA24t
+1339369 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Bb0kZiNxDz
+1339310 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 BbreWoCXSv
+1339353 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 bduLsR7v4K
+1339397 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 bOKXTvk63r
+1339563 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 BrJvEu79eg
+1339384 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 BTf86zJsB3
+1339595 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 byVoAmiOqs
+1339532 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 bze36b6xjZ
+1339305 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 C5KrlOGYlu
+1339526 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 cDfzzIGULi
+1339303 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cF1AG2dtLr
+1339642 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cjcKUQDGLl
+1339252 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cKiyNtE0yD
+1339243 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 ClbTpohwVU
+1339320 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cStCLsSELl
+1339317 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 ctnOoPIga1
+1339245 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 cWRi45wacA
+1339553 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cWZv9iI87X
+1339387 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 cX6YaqFDFY
+1339541 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 D5JYr3I592
+1339589 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 dBJSXzmpb1
+1339364 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Dd9KxIjxSB
+1339401 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 dK320XCmR0
+1339359 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 DKiaUm3WBb
+1339262 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Doi1I9Z8TE
+1339551 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 dqbKkDKbZl
+1339287 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 dtLZdglPV3
+1339540 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Dux6sHDdCW
+1339358 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 EHm7bcCxj1
+1339594 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 epBL6naqQR
+1339569 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 ePj0HMi3nh
+1339260 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Eqk382soFH
+1339378 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 eT21MMr22o
+1339537 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 eT909HWyck
+1339275 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ETRyNzIpYk
+1339256 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 ev8BCScTMa
+1339521 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 F5Db7l8s9j
+1339319 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 F9OYJjkGiB
+1339399 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 fCLOGDR05y
+1339350 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Fdvgo1aqTT
+1339289 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 FeBBLsJEYS
+1339304 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 FJsgrBEwbJ
+1339269 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 flbjrqIXMS
+1339620 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 fn95Z2sG3o
+1339349 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 FYrh0rmC4q
+1339280 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 G9UhKYNLgv
+1339403 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 GaMed1WIDN
+1339561 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 gcb0bfLbVM
+1339246 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 gfLQDXjJAW
+1339639 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 Gksn5ca8Jn
+1339645 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 gOWuBZZgn2
+1339568 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 GPaN65ikSl
+1339297 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 gu78Zpnknw
+1339630 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 gu92R3c92I
+1338606 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 gupiPOsJzC
+1339519 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 hb4zKjD5G4
+1339278 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 hBv1LejGKu
+1339323 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Hf8ovJhWKI
+1339295 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 hGCeu2NgZ5
+1339391 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 HuSBc8QKYi
+1339585 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 HXq7gqQZ5Z
+1339242 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 i4CkeVfT7S
+1339546 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 iCR4qC97HM
+1339379 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 IE4xWwbydi
+1339580 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 IiLRIuK1Fi
+1339348 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 IKeqpTmvmW
+1339591 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ioOe8b7TsJ
+1339567 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 iOplykVsBo
+1339402 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ip23ESdwGT
+1339324 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 IygdcTaoYP
+1339301 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 iymCtoFUVf
+1339272 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 j3JsNAEsm1
+1339631 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 J3K5BY52dp
+1339621 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 J5feTUwPso
+1339552 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 jahdjqT54b
+1339400 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 JArjmQWPVq
+1339368 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 JBDnoFKLcx
+1339352 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 JbMcWq9tku
+1339294 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Jc0EEC4sua
+1339267 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 JgVwSWAUsr
+1339518 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 JlhNaDm4f7
+1339528 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 JnOT2WHKbE
+1339328 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 jpO4wGMT57
+1339601 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 JqAekDHYif
+1339306 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 jrMKucOmtp
+1339557 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 jVBkVAbTHj
+1339250 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 jVGv0HeZvG
+1339273 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 jvyPQ8Z8ht
+1339529 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 JYdPDFpOIe
+1339293 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 k2yYJNQcLu
+1339307 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 K56S3V4AQ6
+1339535 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 K9kyHBbw7y
+1339337 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 Kfce3CFjhh
+1339604 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 KJBdbwTmzD
+1339286 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 kkIu8kVXLo
+1339536 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 kOIOppD8hx
+1339385 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 kp1ujuDGKO
+1339576 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 krWRFtvYDP
+1339520 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 kT3eEAfVcY
+1339274 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 kwmQK5z76U
+1339277 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 L5DOn3iY18
+1339533 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 L8ZzpZTLz5
+1339609 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 LeUtklcfmE
+1339581 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 LKfMizQQjE
+1339544 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 lowIuX2RQI
+1339627 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 LtH4X99Uw3
+1339251 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 LZ5jebusoa
+1339586 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 M1vV6QxnH1
+1339299 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 m59pSiQG2p
+1339405 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 m7lRDpRTUJ
+1339562 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 MaqkHpS39h
+1339612 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 MKQErXMkPE
+1339265 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 moQuVgMB1f
+1339248 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 mRET49bBGR
+1339542 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 mu6c42Y1qo
+1339600 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 mwILTjPhCP
+1339577 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 mxG418at98
+1339618 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 mydABLXwyL
+1339388 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 n4d9SlSzcV
+1339376 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 n4MCXv5XM2
+1332759 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 N5lXyVotHN
+1339602 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 nBoQgGxoGX
+1339259 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 NdkrRTZmr9
+1339351 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 NHag0dTW3U
+1339270 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 nlgqxKuRC3
+1339318 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 NLM96g2hH3
+1339596 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 Nmuh6DvLkc
+1339339 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 nR711EHtmU
+1339336 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 nSC9OkT1E3
+1339616 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 nwt49CVPtC
+1339398 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 O009zeKkif
+1339367 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 O0V7mQCicJ
+1339254 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 o6Q2i1NUXc
+1339360 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 OAbH1oFg57
+1339522 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 OaRp7TV8pe
+1339268 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ObIefWWqqM
+1339244 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 OFx3U24MoP
+1339240 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 OHWTswrtBk
+1339258 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ojc7SuLzMV
+1339394 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 orzpz7CBBQ
+1339292 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Ou1q6zOh5n
+1339356 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 oV3aef60WL
+1339547 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 OXZ3OOGJ7O
+1339588 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 oZ5HOQe6X0
+1339380 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 p194n4sSpi
+1339361 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 p3ARvi0q4F
+1339261 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 p6PVEBfSyK
+1339382 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 PaOzJn0sJV
+1339343 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 PDJdFxfgvh
+1339338 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 penDnjNMQc
+1339393 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 pH9s3o8foP
+1339523 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 pI49N7Zoxn
+1339386 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Pmf5TqkkYg
+1339345 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 pO4Lt5DPrX
+1339283 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 psmL4dk69Y
+1339617 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 pXXxEWcKkz
+1339266 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 q4gh4nODZa
+1339314 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 qFO0JDSF0N
+1339281 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Qh9GBAd3mF
+1339611 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 QM053Y9Vw1
+1339354 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 R0LpA1qK4F
+1339574 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 R6okint5JZ
+1339373 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 R82WkcyQAx
+1339371 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 rcEkx0b0WC
+1339284 -rw-r--r-- 1 maysoonhelmy maysoonhelmy   75 Aug  9 19:35 README.txt
+1339300 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 rgNTkxVkxN
+1339543 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 RnL5L0QLbY
+1339549 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 RPZAvV75tm
+1339538 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 RU4rJzjPfg
+1339558 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 RWWLnFwGtv
+1339592 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 rwZwqdxHhJ
+1339610 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 rzSTDqa7oV
+1339554 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 SaaZymLdoG
+1339288 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 SaQtx8SNld
+1339312 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 sf7ajd5INC
+1339517 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 skVRxkHK04
+1339516 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 sNrtW0eiZF
+1339276 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 SqAZPx7CbA
+1339357 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 SRgPbWeEG6
+1339396 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 sRhTcN4PIw
+1339313 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 sVyNLUXzut
+1339531 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 T0gYx5T5ks
+1339623 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 Tbi1MdwiMX
+1339374 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 tEgA7tGwxB
+1339302 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 TezFlyJz9o
+1339608 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 TFkiwAHDrG
+1339340 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Tt0xmDrg4Y
+1339355 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 tZCE2HQg8s
+1339389 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 uAw4PKT7E0
+1339555 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 udqz57oeuX
+1339298 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ufdeX2Dk7C
+1339335 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 v2ME2J4GuF
+1339366 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 V64A9vKnYq
+1339646 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 vkaOISlk2I
+1339285 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 vLWtq7N2aR
+1339539 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 VneCQhwmfv
+1339603 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 vUbRKbYlKR
+1339315 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Vw5Jm3saUP
+1339253 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 vz1uLzTKjO
+1339590 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 VZw2jtUdZD
+1339271 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 W6AdwbmalK
+1339279 -rw-r--r-- 1 maysoonhelmy maysoonhelmy   34 Aug  9 19:35 WfUKyzFeEv
+1339309 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 WFyKhZdOcx
+1339375 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 wgibrPHhJq
+1339573 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 WhTtCYas3M
+1339593 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 wJC19bchr2
+1339641 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 WLuasYnMvP
+1339587 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Wm14GdEGcm
+1339566 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 wpJyCPLODS
+1339291 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 wpoGQ7WmSg
+1339365 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 WSxUR7IJd8
+1339404 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 wZ4LJKpHW6
+1339575 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 x2CDPgz6Jk
+1339296 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 x3Nvoy3Ucl
+1339582 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 x3SkxfEItU
+1339622 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 X62Vq1yIyL
+1339263 lrwxrwxrwx 1 maysoonhelmy maysoonhelmy   10 Aug  9 19:35 X6lkChFKsj -> WfUKyzFeEv
+1339327 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 XapfbudtZp
+1339329 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 xBsGYZHomA
+1339606 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 xigSiLU79u
+1339241 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 XkrAGaosYZ
+1339619 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 xRxKkdCTU8
+1339599 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 xYCpOSRLsl
+1339247 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 xYlmccmE5f
+1339282 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 Y0nB0Ep1my
+1339637 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 y1IAp2YdZc
+1339598 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 Ye8R8ZOvJ9
+1339633 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ygasPrK3kG
+1339583 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 YgeyHmPrtP
+1339392 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ysdoXYcYQq
+1339626 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 YVAPjrh8Up
+1339395 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zEmK04yIqc
+1339564 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ZenzUsQydR
+1339325 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zet1AFeHNl
+1339341 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zghxQE4JGJ
+1339644 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 ZNq1fiVP6F
+1339629 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zTfi6AwgZQ
+1339605 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zxmnKldpmY
+1339381 drwxr-xr-x 2 maysoonhelmy maysoonhelmy 4096 Aug  9 19:35 zzgiKI2xSS
+1339377 -rw-r--r-- 1 maysoonhelmy maysoonhelmy    0 Aug  9 19:35 zZU6ymQky6
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cd X6lkChFKsj
+bash: cd: X6lkChFKsj: Not a directory
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cd WfUKyzFeEv
+bash: cd: WfUKyzFeEv: Not a directory
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ tar -xf WfUKyzFeEv
+tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -size 10
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat WfUKyzFeEv
+73 bytes is your target file size
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -size 73c
+./m7lRDpRTUJ/xVMvVOKNW5
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat ./m7lRDpRTUJ/xVMvVOKNW5
+Congrats!! You have finished the Task Successfully, you can rest now :D.
+maysoonhelmy@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$
