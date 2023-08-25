@@ -1,0 +1,94 @@
+maysoonhelmy@pop-os:~$ touch system_info.sh
+maysoonhelmy@pop-os:~$ uname -r
+6.2.6-76060206-generic
+maysoonhelmy@pop-os:~$ ./system_info.sh
+bash: ./system_info.sh: Permission denied
+maysoonhelmy@pop-os:~$ chmod +x ./system_info.sh
+maysoonhelmy@pop-os:~$ ./system_info.sh
+bash: ./system_info.sh: /path/to/shell: bad interpreter: No such file or directory
+maysoonhelmy@pop-os:~$ ./system_info.sh
+./system_info.sh: line 1: /path/to/shell: No such file or directory
+Username: osc
+Kernell Version : 6.2.6-76060206-generic
+maysoonhelmy@pop-os:~$ ./system_info.sh
+bash: ./system_info.sh: /path/to/shell: bad interpreter: No such file or directory
+maysoonhelmy@pop-os:~$ ./system_info.sh
+Username: osc
+Kernell Version : 6.2.6-76060206-generic
+maysoonhelmy@pop-os:~$ touch file_check.sh
+maysoonhelmy@pop-os:~$ ./file_check.sh file1.txt /home/maysoonhelmy/Desktop
+bash: ./file_check.sh: Permission denied
+maysoonhelmy@pop-os:~$ chmod +x ./file_check.sh
+maysoonhelmy@pop-os:~$ ./file_check.sh file1.txt /home/maysoonhelmy/Desktop
+File does not exist
+maysoonhelmy@pop-os:~$ ./file_check.sh file1.txt /home/Desktop
+File does not exist
+maysoonhelmy@pop-os:~$ ./file_check.sh file2.txt /home/Desktop
+File does not exist
+maysoonhelmy@pop-os:~$ ./file_check.sh file2.txt ~/Desktop
+File exists
+Contents of file2.txt:
+MAYSOON 
+HELMY 
+SUMMER
+TRAINING 
+
+maysoonhelmy@pop-os:~$ touch rename_files.sh 
+maysoonhelmy@pop-os:~$ chmod +x rename_files.sh
+maysoonhelmy@pop-os:~$ touch lion.png tiger.png cat.jpg dog.jpg text.txt
+maysoonhelmy@pop-os:~$ ls
+cat.jpg  Downloads      Music     rename_files.sh  text.txt   Videos
+Desktop  file_check.sh  Pictures  system_info.sh   tiger.png
+dog.jpg  lion.png       Public    Templates        Training
+maysoonhelmy@pop-os:~$ ./rename_files.sh png image
+maysoonhelmy@pop-os:~$ ls
+cat.jpg  Downloads      Music     rename_files.sh  text.txt
+Desktop  file_check.sh  Pictures  system_info.sh   Training
+dog.jpg  Filename       Public    Templates        Videos
+maysoonhelmy@pop-os:~$ mv Filename lion.png
+maysoonhelmy@pop-os:~$ ls
+cat.jpg  Downloads      Music     rename_files.sh  text.txt
+Desktop  file_check.sh  Pictures  system_info.sh   Training
+dog.jpg  lion.png       Public    Templates        Videos
+maysoonhelmy@pop-os:~$ touch tiger.png
+maysoonhelmy@pop-os:~$ ./rename_file.sh png image
+bash: ./rename_file.sh: No such file or directory
+maysoonhelmy@pop-os:~$ ./rename_file.sh png image
+bash: ./rename_file.sh: No such file or directory
+maysoonhelmy@pop-os:~$ ls
+cat.jpg  Downloads      Music     rename_files.sh  text.txt   Videos
+Desktop  file_check.sh  Pictures  system_info.sh   tiger.png
+dog.jpg  lion.png       Public    Templates        Training
+maysoonhelmy@pop-os:~$ ./rename_files.sh png image
+maysoonhelmy@pop-os:~$ ls
+cat.jpg  Downloads      image2.png  Public           Templates  Videos
+Desktop  file_check.sh  Music       rename_files.sh  text.txt
+dog.jpg  image1.png     Pictures    system_info.sh   Training
+maysoonhelmy@pop-os:~$ touch calculator.sh
+maysoonhelmy@pop-os:~$ chmod +x calculator.sh
+maysoonhelmy@pop-os:~$ ./calculator.sh
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice:  1
+Enter the first number:  10
+Enter the second number: 20
+10 + 20 = 30
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice:  2
+Enter the first number:  10
+Enter the second number: 20
+10 - 20 = -10
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice:  5
+Exiting...
